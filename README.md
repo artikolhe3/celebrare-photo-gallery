@@ -1,41 +1,109 @@
-<<<<<<< HEAD
-# Celebrare Frontend Internship Assignment
 
-Photo Gallery Web App built with React + Vite + Tailwind CSS.
+# 📸 Celebrare Photo Gallery
 
-## Features
-- Fetch 30 photos from Picsum Photos API
-- Responsive grid layout
-- Real-time search filter by author
-- Favourite photos using useReducer
-- Favourites persist using localStorage
-- Custom hook for fetching data
-- Performance optimization using useCallback and useMemo
+A high-performance **Photo Gallery Web Application** built using React, Vite, and Tailwind CSS. This project demonstrates modern frontend engineering practices including performance optimization, state management, and responsive UI design.
 
-## Tech Stack
-React
-Vite
-Tailwind CSS
+---
 
-## Run Project
+## 🚀 Live Demo
 
+👉 [https://celebrare-photo-gallery-three.vercel.app/](https://celebrare-photo-gallery-three.vercel.app/)
+
+---
+
+## ✨ Features
+
+* 📷 Fetches images dynamically from Picsum Photos API
+* 🔍 Real-time search with optimized filtering
+* ❤️ Add/remove favourites with persistent storage
+* 💾 Data persistence using localStorage
+* ⚡ Performance optimizations using React hooks
+* 📱 Fully responsive across devices
+* 🖼️ Lazy loading for better performance
+
+---
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **Vite**
+* **Tailwind CSS**
+
+---
+
+## ⚡ Performance Optimizations
+
+* Used `useMemo` to optimize filtering logic
+* Used `useCallback` to prevent unnecessary re-renders
+* Implemented lazy loading for images
+* Efficient state management using `useReducer`
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ├── components/
+ ├── hooks/
+ ├── pages/
+ ├── utils/
+```
+
+---
+
+## ▶️ Run Locally
+
+```bash
 npm install
 npm run dev
-=======
-# React + Vite
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Then open:
 
-Currently, two official plugins are available:
+```bash
+http://localhost:5173
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 API Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* [https://picsum.photos/](https://picsum.photos/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> d89d00b (Celebrare photo gallery assignment)
+## 📸 Credits
+
+Images provided by photographers (e.g., Alejandro Escamilla) via Picsum Photos.
+
+---
+
+## 💡 Future Improvements
+
+* Infinite scrolling / pagination
+* Dark mode toggle
+* Backend integration for user authentication
+* Advanced filtering & sorting
+
+---
+
+## 👨‍💻 Author
+
+**Arti Kolhe**
+GitHub: [https://github.com/artikolhe3](https://github.com/artikolhe3)
+
+---
+
+
+## ✅ Final Step
+
+Now just:
+
+```bash
+git add README.md
+git commit -m "Top 1% README update"
+git push
+```
+
+---
